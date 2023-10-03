@@ -7,4 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[-len(s):-n]
+print(main("apple",1))
+print(main("codeschooluz",3))
